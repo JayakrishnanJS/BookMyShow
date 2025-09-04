@@ -30,4 +30,6 @@ public class Booking extends BaseModel {
 
     @Enumerated(EnumType.STRING) // to store enum as string in db; by default, it stores as ordinal - 1,2,3...
     private BookingStatus bookingStatus;
+
+    private int totalAmount;
 }

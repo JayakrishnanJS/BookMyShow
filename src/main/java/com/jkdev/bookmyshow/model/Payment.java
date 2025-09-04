@@ -23,6 +23,5 @@ public class Payment extends BaseModel{
     private PaymentMode paymentMode;
 
     @ManyToOne
-    //@JoinColumn(name = "booking_id", nullable = false) // Foreign key column
     private Booking booking;
 }
